@@ -9,9 +9,9 @@ import com.jcraft.jsch.Session;
 
 public class Main {
     public static void main(String[] args) {
-        String host="10.40.134.88";
-        String user="eb21st";
-        String password="bscs@123";
+        String host="${host}";
+        String user="${user}";
+        String password="${password}";
         String command1="ls -ltr";
         try{
 
